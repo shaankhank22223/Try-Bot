@@ -34,12 +34,12 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
       api.sendMessage(sad, threadID, messageID);
     api.setMessageReaction("😢", event.messageID, (err) => {}, true)
           };
-  if(react.includes("India") || react.includes("india") || react.includes("bharat") || react.includes("Bharat")) {
+  if(react.includes("Pakistan") || react.includes("pakistan") || react.includes("bharat") || react.includes("Bharat")) {
       var flag = {
         body: ""
       }
       api.sendMessage(flag, threadID, messageID);
-    api.setMessageReaction("🇧🇩", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🇵🇰", event.messageID, (err) => {}, true)
           };
   if(react.includes("eve") || react.includes("Eve") || react.includes("morning") || react.includes("Morning") || react.includes("afternoon") || react.includes("Afternoon") || react.includes("evening") || react.includes("eat") || react.includes("Eat") || react.includes("night") || react.includes("nyt") || react.includes("Night") || react.includes("Nyt")) {
       var heart = {
@@ -48,12 +48,12 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
       api.sendMessage(heart, threadID, messageID);
     api.setMessageReaction("❤", event.messageID, (err) => {}, true)
             };
-  if(react.includes("wow") || react.includes("robot")) {
+  if(react.includes("Shaan") || react.includes("robot")) {
       var heart = {
         body: ""
       }
       api.sendMessage(heart, threadID, messageID);
-    api.setMessageReaction("😮", event.messageID, (err) => {}, true)
+    api.setMessageReaction("💋", event.messageID, (err) => {}, true)
             }
         }
   module.exports.run = function({ api, event, client, __GLOBAL }) {
